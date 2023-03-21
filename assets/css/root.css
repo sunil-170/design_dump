@@ -1,0 +1,79 @@
+/* font-family */
+.ff_Poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* root */
+:root {
+    /* font_size */
+    --fs-md: 96px;
+    --fs-sm: 48px;
+    --fs-ss: 20px;
+
+
+
+    /* color */
+
+    --color-orange: #F1875E;
+    --color-blue: #007FEF;
+    --color-lightblue: #3A3A3A;
+    --color-black: #000000;
+
+}
+
+.fs_md {
+    font-size: var(--fs-md);
+}
+
+.fs_sm {
+    font-size: var(--fs-sm);
+}
+
+.fs_ss {
+    font-size: var(--fs-ss);
+}
+
+.orange {
+    color: var(--color-orange) !important;
+}
+
+.blue {
+    color: var(--color-blue) !important;
+}
+
+.lightblue {
+    color: var(--color-lightblue) !important;
+}
+
+.black_bg {
+    background: var(--color-black) !important;
+}
+
+.fw_700 {
+    font-weight: 700;
+}
+
+
+
+
+/* media screen 1400  */
+@media (min-width:1400px) {
+    .container {
+        max-width: 1720px !important;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+@media (max-width:768px) {
+
+    /* root */
+    :root {
+        /* font_size */
+        --fs-md: 39px;
+        --fs-sm: 35px;
+        --fs-ss: 18px;
+    }
+}
